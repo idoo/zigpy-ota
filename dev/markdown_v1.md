@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 111
+**Total firmware images:** 112
 
 ## aeotec
 
@@ -1266,6 +1266,28 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 
 > This updates the Sonoff BASIC-ZB1GSP to firmware version 1.0.5.
 - **Pull Request**: [#193](https://github.com/zigpy/zigpy-ota/pull/193)
+
+### `1286-0384-00001100_dca6c2.ota`
+
+- **Original File Name**: `ota_901z_8258_1.1.0.ota`
+- **Manufacturer ID**: `0x1286` (4742)
+- **Image Type**: `0x0384` (900)
+- **File Version**: `0x00001100` (4352)
+- **File Size**: 289,792 bytes
+- **Checksum SHA3-256**: `dca6c21807e68f3a712bc275cea77669e2fc742f5250bfd70a3544e4ee304f6d`
+- **Checksum SHA512**: `856af383a800b4c486c82ce4975fc594fa32330fab8741f6750fbda1c7e78711a07d6e7822da16754cc76828e5911485e6b3c55e659ba2ee035d9c5d9cc36bb4`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0384-00001100_dca6c2.ota
+- **Source URL**: https://github.com/user-attachments/files/31953982/ota_901z_8258_1.1.0_upload.zip
+- **Header String**: `Telink OTA Sample Usage`
+
+**Release Notes:**
+
+> This updates the Sonoff TRV-ZBT to firmware version 1.1.0.
+> 
+> **Changes**
+> - Fix several known issues
+> - Improve device stability and reliability
+- **Pull Request**: [#258](https://github.com/zigpy/zigpy-ota/pull/258)
 
 ### `1286-080E-00001100_a91db8.ota`
 

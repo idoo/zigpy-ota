@@ -544,6 +544,16 @@
             "release_url": "https://github.com/zigpy/zigpy-ota/pull/193"
         },
         {
+            "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0384-00001100_dca6c2.ota",
+            "manufacturer_id": 4742,
+            "image_type": 900,
+            "file_version": 4352,
+            "file_size": 289792,
+            "checksum": "sha3-256:dca6c21807e68f3a712bc275cea77669e2fc742f5250bfd70a3544e4ee304f6d",
+            "release_notes": "This updates the Sonoff TRV-ZBT to firmware version 1.1.0.\n\n**Changes**\n- Fix several known issues\n- Improve device stability and reliability",
+            "release_url": "https://github.com/zigpy/zigpy-ota/pull/258"
+        },
+        {
             "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-080E-00001100_a91db8.ota",
             "manufacturer_id": 4742,
             "image_type": 2062,

@@ -548,6 +548,18 @@
         "releaseNotes": "This updates the Sonoff BASIC-ZB1GSP to firmware version 1.0.5."
     },
     {
+        "fileName": "1286-0384-00001100_dca6c2.ota",
+        "fileVersion": 4352,
+        "fileSize": 289792,
+        "url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0384-00001100_dca6c2.ota",
+        "imageType": 900,
+        "manufacturerCode": 4742,
+        "sha512": "856af383a800b4c486c82ce4975fc594fa32330fab8741f6750fbda1c7e78711a07d6e7822da16754cc76828e5911485e6b3c55e659ba2ee035d9c5d9cc36bb4",
+        "otaHeaderString": "Telink OTA Sample Usage",
+        "originalUrl": "https://github.com/user-attachments/files/31953982/ota_901z_8258_1.1.0_upload.zip",
+        "releaseNotes": "This updates the Sonoff TRV-ZBT to firmware version 1.1.0.\n\n**Changes**\n- Fix several known issues\n- Improve device stability and reliability"
+    },
+    {
         "fileName": "1286-080E-00001100_a91db8.ota",
         "fileVersion": 4352,
         "fileSize": 193632,
