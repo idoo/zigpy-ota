@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 110
+**Total firmware images:** 111
 
 ## aeotec
 
@@ -1096,7 +1096,7 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 > - Add support for energy reporting accuracy down to 0.001 kWh
 - **Pull Request**: [#199](https://github.com/zigpy/zigpy-ota/pull/199)
 
-### `1286-000B-00002006_61fa45.ota`
+### `1286-000B-00002006_61fa45.ota` **[stale]**
 
 - **Original File Name**: `SN-TLSR8656-S60-01-v2.0.6.ota`
 - **Manufacturer ID**: `0x1286` (4742)
@@ -1118,6 +1118,29 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 > **Changes**
 > - Fix the plug incorrectly reporting residual power consumption when no load is connected
 - **Pull Request**: [#255](https://github.com/zigpy/zigpy-ota/pull/255)
+
+### `1286-000B-00002103_7c4a33.ota`
+
+- **Original File Name**: `SN-TLSR8656-S60-01-v2.1.3.ota`
+- **Manufacturer ID**: `0x1286` (4742)
+- **Image Type**: `0x000B` (11)
+- **File Version**: `0x00002103` (8451)
+- **File Size**: 148,864 bytes
+- **Checksum SHA3-256**: `7c4a334199371ba8e5551e254d0ce4a1cdb969067bd97fdcbc94a1d925b27e84`
+- **Checksum SHA512**: `d9ad45ad7641fdf7e01f7ea6487c3174a8314345045026b6f20e43b567b8e9799ce11232c59c19fc62c232f4f181475365fe9f623d83c65303566108e9c9c807`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-000B-00002103_7c4a33.ota
+- **Source URL**: https://github.com/user-attachments/files/32427287/SN-TLSR8656-S60-01-v2.1.3.zip
+- **Header String**: `Telink OTA Sample Usage`
+- **Manufacturer Names**: SONOFF
+- **Model Names**: S60ZBTPF, S60ZBTPG
+
+**Release Notes:**
+
+> This updates the Sonoff Plug S60ZBTPF/S60ZBTPG to firmware version 2.1.3.
+> 
+> **Changes**
+> - Fix incorrect voltage, power, and energy metering values for loads below 110 W
+- **Pull Request**: [#364](https://github.com/zigpy/zigpy-ota/pull/364)
 
 ### `1286-0044-00001007_3524ca.ota`
 
