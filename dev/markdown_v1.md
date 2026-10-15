@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 112
+**Total firmware images:** 113
 
 ## aeotec
 
@@ -1366,6 +1366,28 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 > **New features**
 > - Add support for setting the water flow unit (liter, US gallon, or imperial gallon) on valves with a flow meter
 - **Pull Request**: [#223](https://github.com/zigpy/zigpy-ota/pull/223)
+
+### `1286-200E-00001005_6b5e78.ota`
+
+- **Original File Name**: `SN-TLSR8258-TP-01-v1.0.5.ota`
+- **Manufacturer ID**: `0x1286` (4742)
+- **Image Type**: `0x200E` (8206)
+- **File Version**: `0x00001005` (4101)
+- **File Size**: 237,248 bytes
+- **Checksum SHA3-256**: `6b5e78d3040ecf8758bc7023632ca8cf5be8eae77b2d80ff378b5847ea50f604`
+- **Checksum SHA512**: `4244f474055a223e09d9c37256c4735dff020ef3f371112f0d4ac1f5cf976d7b9aeb4f74b60ebd81aca27931ecca0c8b9e5f6b3788938542b0c4d53dcbe5e562`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-200E-00001005_6b5e78.ota
+- **Source URL**: https://github.com/user-attachments/files/33419353/SN-TLSR8258-TP-01-v1.0.5.ota.zip
+- **Header String**: `FIRMWARE`
+
+**Release Notes:**
+
+> This updates the Sonoff TP-WGZBA thermostat to firmware version 1.0.5.
+> 
+> **Changes**
+> - Fix the setpoint falling back to 5 °C (the frost protection temperature) at midnight when a weekly schedule is active
+> - Improve temperature compensation so the reported temperature no longer jumps by 0.5–1.6 °C when the heating relay switches
+- **Pull Request**: [#377](https://github.com/zigpy/zigpy-ota/pull/377)
 
 ### `1286-210C-00001009_8e62f7.ota`
 
