@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 115
+**Total firmware images:** 116
 
 ## aeotec
 
@@ -2529,7 +2529,7 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 > - Bug fixes and improvements
 - **Pull Request**: [#37](https://github.com/zigpy/zigpy-ota/pull/37)
 
-### `10F2-7B38-02600460_ea7e69.ota`
+### `10F2-7B38-02600460_ea7e69.ota` **[stale]**
 
 - **Original File Name**: `10F2-7B38-0000-0004-02600460-spo-rmd.ota.zigbee`
 - **Manufacturer ID**: `0x10F2` (4338)
@@ -2551,6 +2551,35 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 > **Changes**
 > - Bug fixes and improvements
 - **Pull Request**: [#41](https://github.com/zigpy/zigpy-ota/pull/41)
+
+### `10F2-7B38-02710470_0a6c20.ota`
+
+- **Original File Name**: `10F2-7B38-0000-0004-02710470-spo-rmd.ota.zigbee`
+- **Manufacturer ID**: `0x10F2` (4338)
+- **Image Type**: `0x7B38` (31544)
+- **File Version**: `0x02710470` (40961136)
+- **File Size**: 153,598 bytes
+- **Checksum SHA3-256**: `0a6c20626de09b0ecc1ea28fe387ad911b9f187994babc4c0774a69516ad3ef9`
+- **Checksum SHA512**: `053b397357b2bf10ace8f4aaf8545aa124dd96337cc747e48642c77ed37611d50bbaa79f9d6399aefeca4fbec348f1651a3894787bc2352293e2be1ed102c5fd`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/ubisys/10F2-7B38-02710470_0a6c20.ota
+- **Source URL**: https://www.ubisys.de/wp-content/uploads/10F2-7B38-0000-0004-02710470-spo-rmd.ota.zigbee
+- **Header String**: `ubisys D1-R 2.7.1`
+- **Min Hardware Version**: `0x0000` (0)
+- **Max Hardware Version**: `0x0004` (4)
+
+**Release Notes:**
+
+> This updates the ubisys Dimmer D1-R to v2.7.1 (Stack 4.7.0).
+> 
+> **Changes**
+> - Refine the transient behavior when an On, Off or Toggle command is received during a level transition, avoiding abrupt or unnatural output changes
+> - Rework the Electrical Measurement and Metering cluster implementations for improved accuracy and specification conformance
+> - Add support for the multiplier and divisor attributes in the Electrical Measurement cluster, so reported values can be scaled to the correct units
+> - Handle reportable attributes whose current value is invalid or unavailable when an attribute report is generated
+> - Other bug fixes and improvements
+> 
+> **More info:** https://www.ubisys.de/en/support/firmware/change-logs-d1r/
+- **Pull Request**: [#238](https://github.com/zigpy/zigpy-ota/pull/238)
 
 ### `10F2-7B45-02610463_459e97.ota`
 
