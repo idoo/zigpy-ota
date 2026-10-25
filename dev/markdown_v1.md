@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 113
+**Total firmware images:** 114
 
 ## aeotec
 
@@ -2380,6 +2380,33 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 - **Pull Request**: [#209](https://github.com/zigpy/zigpy-ota/pull/209)
 
 ## ubisys
+
+### `10F2-7B2C-01710470_bd38c1.ota`
+
+- **Original File Name**: `10F2-7B2C-0000-0001-01710470-ld6.ota.zigbee`
+- **Manufacturer ID**: `0x10F2` (4338)
+- **Image Type**: `0x7B2C` (31532)
+- **File Version**: `0x01710470` (24183920)
+- **File Size**: 240,382 bytes
+- **Checksum SHA3-256**: `bd38c1bea7a5be24d141a96306968a733087958b2b6c1fc921650614a1522538`
+- **Checksum SHA512**: `20b8b67d10355df613c7d8ce3a52005e03f607832eb8dd8ac1c79f93f271f9dd9f163dd2fcbb764f65dc11a54d0e3111ba865382b555201ef8c74820ab2b4736`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/ubisys/10F2-7B2C-01710470_bd38c1.ota
+- **Source URL**: https://www.ubisys.de/wp-content/uploads/10F2-7B2C-0000-0001-01710470-ld6.ota.zigbee
+- **Header String**: `ubisys LD6 1.7.1`
+- **Min Hardware Version**: `0x0000` (0)
+- **Max Hardware Version**: `0x0001` (1)
+
+**Release Notes:**
+
+> This updates the ubisys LED Controller LD6 to v1.7.1 (Stack 4.7.0).
+> 
+> **Changes**
+> - Refine the transient behavior when an On, Off or Toggle command is received during a level transition, avoiding abrupt or unnatural output changes
+> - Handle reportable attributes whose current value is invalid or unavailable when an attribute report is generated
+> - Other bug fixes and improvements
+> 
+> **More info:** https://www.ubisys.de/en/support/firmware/change-logs-ld6/
+- **Pull Request**: [#240](https://github.com/zigpy/zigpy-ota/pull/240)
 
 ### `10F2-7B2D-01810460_328d1a.ota`
 

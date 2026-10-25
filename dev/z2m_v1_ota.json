@@ -1185,6 +1185,20 @@
         "hardwareVersionMax": 65520
     },
     {
+        "fileName": "10F2-7B2C-01710470_bd38c1.ota",
+        "fileVersion": 24183920,
+        "fileSize": 240382,
+        "url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/ubisys/10F2-7B2C-01710470_bd38c1.ota",
+        "imageType": 31532,
+        "manufacturerCode": 4338,
+        "sha512": "20b8b67d10355df613c7d8ce3a52005e03f607832eb8dd8ac1c79f93f271f9dd9f163dd2fcbb764f65dc11a54d0e3111ba865382b555201ef8c74820ab2b4736",
+        "otaHeaderString": "ubisys LD6 1.7.1",
+        "originalUrl": "https://www.ubisys.de/wp-content/uploads/10F2-7B2C-0000-0001-01710470-ld6.ota.zigbee",
+        "releaseNotes": "This updates the ubisys LED Controller LD6 to v1.7.1 (Stack 4.7.0).\n\n**Changes**\n- Refine the transient behavior when an On, Off or Toggle command is received during a level transition, avoiding abrupt or unnatural output changes\n- Handle reportable attributes whose current value is invalid or unavailable when an attribute report is generated\n- Other bug fixes and improvements\n\n**More info:** https://www.ubisys.de/en/support/firmware/change-logs-ld6/",
+        "hardwareVersionMin": 0,
+        "hardwareVersionMax": 1
+    },
+    {
         "fileName": "10F2-7B2D-01810460_328d1a.ota",
         "fileVersion": 25232480,
         "fileSize": 182526,
