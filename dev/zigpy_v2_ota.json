@@ -1234,6 +1234,18 @@
             "max_hardware_version": 6
         },
         {
+            "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/ubisys/10F2-7B31-02710470_3517f4.ota",
+            "manufacturer_id": 4338,
+            "image_type": 31537,
+            "file_version": 40961136,
+            "file_size": 153598,
+            "checksum": "sha3-256:3517f4e97193fec1cf765cec70dbd9eaa6650ab34960b3081f84254765febb85",
+            "release_notes": "This updates the ubisys Dimmer D1 to v2.7.1 (Stack 4.7.0).\n\n**Changes**\n- Refine the transient behavior when an On, Off or Toggle command is received during a level transition, avoiding abrupt or unnatural output changes\n- Rework the Electrical Measurement and Metering cluster implementations for improved accuracy and specification conformance\n- Add support for the multiplier and divisor attributes in the Electrical Measurement cluster, so reported values can be scaled to the correct units\n- Handle reportable attributes whose current value is invalid or unavailable when an attribute report is generated\n- Other bug fixes and improvements\n\n**More info:** https://www.ubisys.de/en/support/firmware/change-logs-d1/",
+            "release_url": "https://github.com/zigpy/zigpy-ota/pull/236",
+            "min_hardware_version": 0,
+            "max_hardware_version": 6
+        },
+        {
             "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/ubisys/10F2-7B33-02600460_53ed4b.ota",
             "manufacturer_id": 4338,
             "image_type": 31539,
