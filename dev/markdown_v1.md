@@ -3,7 +3,7 @@
 This is a human-readable index of all OTA firmware images in the zigpy-ota repository.
 
 **Channel:** dev\
-**Total firmware images:** 116
+**Total firmware images:** 117
 
 ## aeotec
 
@@ -1313,6 +1313,28 @@ This is a human-readable index of all OTA firmware images in the zigpy-ota repos
 >   - This is enabled by adding the `OnOff` cluster to endpoints 2, 3, and 4 (previously only available on endpoint 1)
 > - Performance improvements
 - **Pull Request**: [#51](https://github.com/zigpy/zigpy-ota/pull/51)
+
+### `1286-0817-00001007_429ea1.ota`
+
+- **Original File Name**: `SN-TLSR8656-02B-01-v1.0.7.ota`
+- **Manufacturer ID**: `0x1286` (4742)
+- **Image Type**: `0x0817` (2071)
+- **File Version**: `0x00001007` (4103)
+- **File Size**: 107,344 bytes
+- **Checksum SHA3-256**: `429ea10375e4b2c16b032936b0f58fc8216fe06533cf64451cc8ab39d55de1c4`
+- **Checksum SHA512**: `02483e22ce12a3184db6522d0a621d610ce12a94a4487e02f8dfc7435b9aeadcdee41bbd6915bc4f60f72eb72dbd7c46e4438826ff9bc0259242ee50cc26e8d8`
+- **Binary URL**: https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0817-00001007_429ea1.ota
+- **Source URL**: https://github.com/user-attachments/files/33693979/SN-TLSR8656-02B-01-v1.0.7.ota.zip
+- **Header String**: `Telink OTA Sample Usage`
+
+**Release Notes:**
+
+> This updates the Sonoff SNZB-02B temperature and humidity sensor to firmware version 1.0.7.
+> 
+> **Changes**
+> - Optimize power consumption to extend battery life
+> - Improve device stability
+- **Pull Request**: [#380](https://github.com/zigpy/zigpy-ota/pull/380)
 
 ### `1286-2007-00001404_fbc68d.ota`
 

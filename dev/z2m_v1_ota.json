@@ -576,6 +576,18 @@
         "modelId": "SNZB-01M"
     },
     {
+        "fileName": "1286-0817-00001007_429ea1.ota",
+        "fileVersion": 4103,
+        "fileSize": 107344,
+        "url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0817-00001007_429ea1.ota",
+        "imageType": 2071,
+        "manufacturerCode": 4742,
+        "sha512": "02483e22ce12a3184db6522d0a621d610ce12a94a4487e02f8dfc7435b9aeadcdee41bbd6915bc4f60f72eb72dbd7c46e4438826ff9bc0259242ee50cc26e8d8",
+        "otaHeaderString": "Telink OTA Sample Usage",
+        "originalUrl": "https://github.com/user-attachments/files/33693979/SN-TLSR8656-02B-01-v1.0.7.ota.zip",
+        "releaseNotes": "This updates the Sonoff SNZB-02B temperature and humidity sensor to firmware version 1.0.7.\n\n**Changes**\n- Optimize power consumption to extend battery life\n- Improve device stability"
+    },
+    {
         "fileName": "1286-2007-00001404_fbc68d.ota",
         "fileVersion": 5124,
         "fileSize": 332220,

@@ -570,6 +570,16 @@
             ]
         },
         {
+            "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-0817-00001007_429ea1.ota",
+            "manufacturer_id": 4742,
+            "image_type": 2071,
+            "file_version": 4103,
+            "file_size": 107344,
+            "checksum": "sha3-256:429ea10375e4b2c16b032936b0f58fc8216fe06533cf64451cc8ab39d55de1c4",
+            "release_notes": "This updates the Sonoff SNZB-02B temperature and humidity sensor to firmware version 1.0.7.\n\n**Changes**\n- Optimize power consumption to extend battery life\n- Improve device stability",
+            "release_url": "https://github.com/zigpy/zigpy-ota/pull/380"
+        },
+        {
             "binary_url": "https://raw.githubusercontent.com/zigpy/zigpy-ota/dev/images/sonoff/1286-2007-00001404_fbc68d.ota",
             "manufacturer_id": 4742,
             "image_type": 8199,
